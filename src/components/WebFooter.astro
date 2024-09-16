@@ -1,0 +1,20 @@
+---
+interface Props {
+	p: string;
+}
+
+const { p} = Astro.props;
+---
+
+<footer>
+    <div>
+        <p class="copyright">
+            {p}
+        </p>
+        <slot>
+            
+        </slot>
+    </div>
+</footer>
+
+

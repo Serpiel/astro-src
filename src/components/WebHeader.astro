@@ -1,0 +1,20 @@
+---
+interface Props {
+	title: string;
+}
+
+const {title} = Astro.props;
+---
+
+<header>
+    <nav>
+        <ul>
+            <li class="logo"><img src="../../public/Assets/AC_logo_main.png" alt="Assassin's Creed Logo" width="200" height="80"></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="Pages/games.php">Games</a></li>
+            <li><a href="Pages/lore.php">Lore</a></li>
+            <li><a href="Pages/about.php">About</a></li>
+        </ul>
+    </nav>
+    <h1>{title}</h1>
+    </header>
