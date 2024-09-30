@@ -1,0 +1,35 @@
+h2 {
+    text-align: center;
+    margin: 50px;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.game, .band, .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game img,.band img, .team img {
+    width: 550px;
+    height: 320px;
+    border-radius: 20px;
+}
+
+.game img:hover,.band img:hover, .team img:hover {
+    box-shadow: #a53333 0px 5px 15px;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.game p,.band p, .team p {
+    color: #a53333;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+---
+import "../style/HMelyts.scss"
+import HMredaeH from "../components/HMredaeH.astro"
+import HMretooF from "../components/HMretooF.astro"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/HMLogo.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<title>H.M Website</title>
+	</head>
+	<body>
+
+        <HMredaeH header=title/>
+
+		<slot />
+
+        <HMretooF />
+
+	</body>
+	
+</html>
